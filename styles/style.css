@@ -92,6 +92,19 @@ footer{
     font-size: 6vw;
     color: white;
 }
+.whoami{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: inline;
+    font-weight: bolder;
+}
+.comma{
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+
 /* career */
 
 .text {
