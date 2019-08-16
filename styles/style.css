@@ -1,0 +1,122 @@
+@media screen and (max-width: 770px) {
+    body {
+        padding-top: 200px;
+    }
+    .nav-link{
+        font-size: 80%;
+        text-align: center;
+    }
+    #imgBrand{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+body{
+    padding-top: 100px;
+}
+#imgbrand{
+    max-width: 100%;
+    width : 45px; 
+    margin-left: 2%;
+}
+.principal-navbar{
+    background-color: white;
+    border-bottom: 2px inset rgb(218, 198, 24);
+    padding: 9px 10px;
+
+}
+.nav-link:hover{
+    color: #085969;
+    border-color: rgb(116, 106, 17);
+    border-style: solid;
+    border-radius: 10px;
+
+}
+.nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+}
+.col-8{
+    border: solid;
+}
+.col-4{
+    border: solid;
+}
+#proy{
+    border: solid;
+}
+#formaca{
+    border: solid;
+}
+#interes{
+    border: solid;
+}
+footer{
+    background-color: rgb(154, 145, 179);;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0;
+}
+.custom-navbar{
+    padding: 7px 7px;
+
+}
+.row{
+    height: 170px;
+}
+
+#temp{
+    padding:0 0 0 10px;
+}
+
+.navbar-toggler{
+    border-color: rgb(218, 198, 24);
+    border-style: solid;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.fa-bars{
+    color: rgb(114, 95, 13);
+}
+.banner{
+    text-align: center;
+    background-color: rgb(231, 221, 176)
+
+}
+#nombre{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 6vw;
+    color: white;
+}
+/* career */
+
+.text {
+    list-style: none;
+    display: flex;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 10px;
+  }
+  .text li {
+    font-weight: 700;
+    font-size: 2em;
+    color: black;
+    opacity: 1;
+    transition: all 0.7s ease-in-out;
+    max-width: 2em;
+  }
+  .text.hidden li.spaced {
+    padding-left: 0;
+  }
+  .text li.spaced {
+    padding-left: 0.2em;
+  }
+  
+  .text.hidden li.ghost {
+    opacity: 0;
+    max-width: 0;
+  }
+  
