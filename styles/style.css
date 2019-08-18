@@ -209,12 +209,31 @@ footer{
     text-align: center;
     background-color: rgb(231, 205, 176);
     padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  #skills{
+    text-align: center;
+    background-color: rgb(253, 230, 153);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+  .lenguajes{
+      display: flex;
+      align-content: center;
+      font-family: 'Fira Sans', sans-serif;
   }
   .subtitle-education{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
     font-size: 4vw;
     color: white;
+  }
+  .subtitle-education-black{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 4vw;
+    color: black;
   }
   .listaEducacion{
     font-family: 'Fira Sans', sans-serif;
