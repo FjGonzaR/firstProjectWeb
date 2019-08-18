@@ -172,12 +172,42 @@
         <div class="row" id="skills">
             <div class="col-12">
                 <strong class="subtitle-education">Skills</strong>
-                <div class="row">
+                <div class="row charts">
                     <div class="col-12 col-lg-6 lenguajes">
-                        <canvas id="programming" alt="Graph representing my knowledge in the most famous programming languages"></canvas>
+                        <canvas id="programming"
+                            alt="Graph representing my knowledge in the most famous programming languages"></canvas>
                     </div>
                     <div class="col-lg-6 col-12">
-                        <canvas id="frontendChart" alt="Graph representing my knowledge in the most famous programming languages"></canvas>
+                        <canvas id="frontendChart"
+                            alt="Graph representing my knowledge in the most famous programming languages"></canvas>
+                    </div>
+                </div>
+                <div class="row charts">
+                    <div class="col-4 algorithms">
+                            <strong class="subsubtitle">Algorithms</strong>
+                            <h3 class="progress-title">Dynamic Programming</h3>
+                            <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" id="dpBarOne" ole="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>
+                            <h3 class="progress-title">String Algorithms</h3>
+                            <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" id="dpBarTwo" ole="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                            </div>
+                            <h3 class="progress-title">Greedy Algorithms</h3>
+                            <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" id="dpBarThree" ole="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                            </div>
+                            <h3 class="progress-title">Graph Algorithms</h3>
+                            <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" id="dpBarFour" ole="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                            </div>
+                            
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-4">
+
                     </div>
                 </div>
             </div>
@@ -219,19 +249,23 @@
                                     aria-labelledby="list-primaria-list">
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item">
-                                                <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle" alt="Star">
+                                            <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle"
+                                                alt="Star">
                                             Best student in 1th grade
                                         </li>
                                         <li class="list-group-item">
-                                                <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle" alt="Star">
+                                            <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle"
+                                                alt="Star">
                                             Best student in 2th grade
                                         </li>
                                         <li class="list-group-item">
-                                                <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle" alt="Star">
+                                            <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle"
+                                                alt="Star">
                                             Best student in 4th grade
                                         </li>
                                         <li class="list-group-item">
-                                                <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle" alt="Star">
+                                            <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle"
+                                                alt="Star">
                                             Best student in 5th grade
                                         </li>
                                     </ul>
@@ -240,24 +274,29 @@
                                     aria-labelledby="list-secundaria-list">
                                     <ul class="list-group list-group-flush">
                                         <li class="list-group-item active">
-                                                <img src="./assets/imgs/guarantee.png" class="img-fluid img-responsive imgLittle" alt="Book with a medal">
+                                            <img src="./assets/imgs/guarantee.png"
+                                                class="img-fluid img-responsive imgLittle" alt="Book with a medal">
                                             Best ICFES
                                         </li>
                                         <li class="list-group-item">
-                                                <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle" alt="Star">
+                                            <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle"
+                                                alt="Star">
                                             Best student in 10th grade
                                         </li>
                                         <li class="list-group-item">
-                                                <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle" alt="Star">
+                                            <img src="./assets/imgs/star.png" class="img-fluid img-responsive imgLittle"
+                                                alt="Star">
                                             Best student in 11th grade
 
                                         </li>
                                         <li class="list-group-item">
-                                                <img src="./assets/imgs/gold-medal.png" class="img-fluid img-responsive imgLittle" alt="Gold Medal">
+                                            <img src="./assets/imgs/gold-medal.png"
+                                                class="img-fluid img-responsive imgLittle" alt="Gold Medal">
                                             Gold medal in football
                                         </li>
                                         <li class="list-group-item">
-                                                <img src="./assets/imgs/silver-medal.png" class="img-fluid img-responsive imgLittle" alt="Silver medal">
+                                            <img src="./assets/imgs/silver-medal.png"
+                                                class="img-fluid img-responsive imgLittle" alt="Silver medal">
                                             Silver medal in football
                                         </li>
                                     </ul>
@@ -285,78 +324,105 @@
     <script src="./scripts/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script>
-        var info = {
-            datasets: [{
-                data: [25, 40, 15],
-                backgroundColor: ["#878BB6", "#4ACAB4", "#FF8153"]
-            }],
-            labels: [
-                'Python',
-                'Java',
-                'C++'
-            ]
-        };
-
-        var infoFrontend = {
-            datasets: [{
-                data: [40, 20, 28],
-                backgroundColor: ["#878BB6", "#4ACAB4", "#FF8153"]
-            }],
-            labels: [
-                'HTML',
-                'CSS',
-                'JavaScript'
-            ]
-        };
-
-        // Get the context of the canvas element we want to select
-        var lenguajes = document.getElementById("programming").getContext("2d");
-        new Chart(lenguajes, {
-            type: 'polarArea',
-            data: info,
-            options: {
-                title: {
-                    display: true,
-                    text: 'Programming Languages',
-                    fontFamily: 'Fira Sans',
-                    fontColor: '#000000',
-                    fontStyle: 'bold',
-                    padding: 10,
-                    fontSize : 14
-
-                },
-                legend: {
-                    position: 'bottom',
-                    fontFamily: 'Fira Sans',
-
-                },
-                responsive : true
-            }
-        });
-
-
-        var frontendTech = document.getElementById("frontendChart").getContext("2d");
-        new Chart(frontendTech, {
-            type: 'polarArea',
-            data: infoFrontend,
-            options: {
-                title: {
-                    display: true,
-                    text: 'Frontend Tools',
-                    fontFamily: 'Fira Sans',
-                    fontColor: '#000000',
-                    fontStyle: 'bold',
-                    padding: 10,
-                    fontSize : 14
-
-                },
-                legend: {
-                    position: 'bottom',
-                    fontFamily: 'Fira Sans',
-
+        $(function () {
+            var oTop = $('#skills').offset().top - window.innerHeight;
+            var chartHidden = true;
+            $(window).scroll(function () {
+                var pTop = $(window).scrollTop();
+                console.log(''+oTop);
+                if ((pTop > oTop) && (chartHidden)) {
+                    chartHidden = false;
+                    startAnimation();
                 }
-                        }
+            });
         });
+
+
+
+        function startAnimation() {
+            var info = {
+                datasets: [{
+                    data: [25, 40, 15],
+                    backgroundColor: ["#878BB6", "#4ACAB4", "#FF8153"]
+                }],
+                labels: [
+                    'Python',
+                    'Java',
+                    'C++'
+                ]
+            };
+
+            var infoFrontend = {
+                datasets: [{
+                    data: [40, 20, 28],
+                    backgroundColor: ["#878BB6", "#4ACAB4", "#FF8153"]
+                }],
+                labels: [
+                    'HTML',
+                    'CSS',
+                    'JavaScript'
+                ]
+            };
+
+            // Get the context of the canvas element we want to select
+            var lenguajes = document.getElementById("programming").getContext("2d");
+            new Chart(lenguajes, {
+                type: 'polarArea',
+                data: info,
+                options: {
+                    title: {
+                        display: true,
+                        text: 'Programming Languages',
+                        fontFamily: 'Fira Sans',
+                        fontColor: '#000000',
+                        fontStyle: 'bold',
+                        padding: 10,
+                        fontSize: 17
+
+                    },
+                    legend: {
+                        position: 'bottom',
+                        fontFamily: 'Fira Sans',
+
+                    },
+                    animation: {
+                        animateScale: true,
+                        duration: 4500
+                    }
+                }
+            });
+
+
+            var frontendTech = document.getElementById("frontendChart").getContext("2d");
+            new Chart(frontendTech, {
+                type: 'polarArea',
+                data: infoFrontend,
+                options: {
+                    title: {
+                        display: true,
+                        text: 'Frontend Tools',
+                        fontFamily: 'Fira Sans',
+                        fontColor: '#000000',
+                        fontStyle: 'bold',
+                        padding: 10,
+                        fontSize: 17
+
+                    },
+                    legend: {
+                        position: 'bottom',
+                        fontFamily: 'Fira Sans'
+
+                    },
+                    animation: {
+                        animateScale: true,
+                        duration: 4500
+                    }
+                }
+            });
+
+
+        }
+
 
     </script>
 

@@ -229,6 +229,34 @@ footer{
     font-size: 4vw;
     color: white;
   }
+  .subsubtitle{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2vw;
+  }
+  .progress-title{
+    font-size: 1.3vw;
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+  }
+  .progress{
+      background-color: white;
+  }
+  #dpBarOne{
+      background-color : rgb(24, 228, 75)
+  }
+  #dpBarTwo{
+    background-color : rgb(24, 221, 228)
+}
+#dpBarThree{
+    background-color : rgb(228, 48, 24)
+}
+#dpBarFour{
+    background-color : rgb(228, 24, 218)
+}
+.charts{
+      padding-bottom: 50px;
+  }
   .subtitle-education-black{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
@@ -258,6 +286,9 @@ footer{
 .btnclose:hover{
     background-color: rgb(107, 44, 44);
     color: white;
+}
+.algorithms{
+    margin-left: 12px;
 }
 
 
