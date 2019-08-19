@@ -41,7 +41,13 @@ body{
     margin-left: 2%;
 }
 .imgLittle{
-    width : 25px; 
+    width : 30px; 
+}
+.imgBitLittle{
+    width : 35px; 
+}
+.left{
+    float : left;
 }
 #imgPc{
     animation-name: floating;
@@ -132,7 +138,6 @@ footer{
 }
 .modal{
     font-family: 'Montserrat', sans-serif;
-
 }
 #nombre{
     font-family: 'Montserrat', sans-serif;
@@ -281,7 +286,7 @@ footer{
     font-size: 1.5vw;
 
   }
-  .itemHover:hover{
+.itemHover:hover{
       border-color: rgb(68, 42, 13);
       border-bottom-width: 3px;
 }
@@ -300,6 +305,30 @@ footer{
 .skillsCol{
    padding-left: 12px;
    margin-top: 10px;
+}
+.proyContainer{
+    padding: 3px;
+}
+#proy{
+    text-align: center;
+    background-color: rgb(248, 184, 159);
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+.proysContainer{
+    font-family: 'Fira Sans', sans-serif;
+}
+.card-title{
+    font-weight : bolder;
+}
+.highlight-f{
+    background-color: rgb(66, 126, 255);
+    color : white;
+}
+
+.highlight-s{
+    background-color: rgb(94, 66, 255);
+    color : white;
 }
 
 
