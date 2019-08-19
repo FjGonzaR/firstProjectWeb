@@ -3,7 +3,7 @@
         padding-top: 200px;
     }
     .nav-link{
-        font-size: 80%;
+        font-size: 80% !important;
         text-align: center;
     }
     #imgBrand{
@@ -11,18 +11,25 @@
         margin-right: auto;
     }
     .list-group-item{
-        padding: .40rem .70rem;
+        padding: .40rem .70rem !important;
     }
     #imgPc{
-        margin-bottom: 10px;
+        margin-bottom: 10px !important;
     }
     .elementInfoBas{
-        font-size : .8vw;
+        font-size : 3.5vw !important;
         border: 1px dotted rgb(181, 191, 202);
         border-radius: 10px 10px 10px 10px;
     }
     .list-group-item{
-        font-size: 10px;
+        font-size: 10px !important;
+    }
+    .subsubtitle{
+        font-size: 4vw !important; 
+
+    }
+    .ghost , .spaced, #c{
+        font-size: 1em !important;
     }
   }
 body{
@@ -43,9 +50,8 @@ body{
     animation-timing-function: ease-in-out;
 }
 #imgMe{
-    width : 20vw; 
+    width : 25vw; 
     box-shadow: 0 8px 6px -6px black;
-
 
 }
 .principal-navbar{
@@ -120,8 +126,9 @@ footer{
     align-items: center;
     padding-left: 9vh;
     padding-right: 9vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: rgb(255, 248, 214);
-    min-height: 100vh;
 }
 .modal{
     font-family: 'Montserrat', sans-serif;
@@ -193,14 +200,14 @@ footer{
   }
   #nombreLargo{
       text-align: center;
-      font-size: 4vw;
+      font-size: 5vw;
       font-weight: 100;
       color: rgb(143, 134, 95);
       -webkit-text-stroke-width: 0.3px;
         -webkit-text-stroke-color: rgb(0, 0, 0);
   }
   .elementInfoBas{
-    font-size: 1.8vw;
+    font-size: 2vw;
     border: 1px dotted rgb(181, 191, 202);
     border-radius: 10px 10px 10px 10px;
   }
@@ -214,7 +221,7 @@ footer{
   #skills{
     text-align: center;
     background-color: rgb(253, 230, 153);
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 
   }
@@ -226,33 +233,36 @@ footer{
   .subtitle-education{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 5vw;
     color: white;
   }
   .subsubtitle{
     font-family: 'Fira Sans', sans-serif;
     font-size: 2vw;
+    color: white;
   }
   .progress-title{
-    font-size: 1.3vw;
+    font-size: 15px;
     text-align: left;
     font-family: 'Fira Sans', sans-serif;
     font-style: italic;
+    margin-top: 5px;
   }
   .progress{
       background-color: white;
+      margin-bottom: 4px;
   }
   #dpBarOne{
-      background-color : rgb(24, 228, 75)
+      background-color : rgb(192, 117, 31)
   }
   #dpBarTwo{
-    background-color : rgb(24, 221, 228)
+    background-color : rgb(207, 74, 12)
 }
 #dpBarThree{
-    background-color : rgb(228, 48, 24)
+    background-color : rgb(219, 154, 14)
 }
 #dpBarFour{
-    background-color : rgb(228, 24, 218)
+    background-color : rgb(240, 53, 28)
 }
 .charts{
       padding-bottom: 50px;
@@ -287,8 +297,9 @@ footer{
     background-color: rgb(107, 44, 44);
     color: white;
 }
-.algorithms{
-    margin-left: 12px;
+.skillsCol{
+   padding-left: 12px;
+   margin-top: 10px;
 }
 
 
