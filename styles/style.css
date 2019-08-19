@@ -142,7 +142,7 @@ footer{
 #nombre{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    font-size: 6vw;
+    font-size: 7vw;
     color: white;
 }
 .whoami{
@@ -235,7 +235,7 @@ footer{
       align-content: center;
       font-family: 'Fira Sans', sans-serif;
   }
-  .subtitle-education{
+  .subtitle-style-font{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
     font-size: 5vw;
@@ -272,7 +272,7 @@ footer{
 .charts{
       padding-bottom: 50px;
   }
-  .subtitle-education-black{
+  .subtitle-style-font-black{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
     font-size: 4vw;
@@ -312,6 +312,12 @@ footer{
 #proy{
     text-align: center;
     background-color: rgb(248, 184, 159);
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+#intereses{
+    text-align: center;
+    background-color: rgb(248, 159, 159);
     padding-top: 75px;
     padding-bottom: 70px;
 }
