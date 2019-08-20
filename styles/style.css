@@ -208,7 +208,8 @@ footer{
     opacity: 0;
     max-width: 0;
   }
-  /* fin banner */
+
+  /* fin career */
   #foto{
       padding-top: 10px;
       padding-bottom: 10px;
@@ -394,7 +395,7 @@ footer{
 }
 
 
-  /* floating  reference : https://codepen.io/whusterj/pres/bdYKop*/
+ /* floating  reference : https://codepen.io/whusterj/pres/bdYKop */
 @keyframes floating {
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 10px); }
