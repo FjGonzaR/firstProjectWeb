@@ -44,6 +44,7 @@ body{
     width : 30px; 
 }
 .imgHobbie{
+    max-width: 200px;
     width : 30vw;
     padding-bottom: 5px;
 }
@@ -53,6 +54,9 @@ body{
 }
 .imgMedian{
     width : 50px; 
+}
+.îmgRoland{
+    max-width: 200px;
 }
 .imgBitLittle{
     width : 35px; 
