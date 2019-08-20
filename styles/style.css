@@ -256,11 +256,14 @@ footer{
     font-family: 'Fira Sans', sans-serif;
     font-size: 2.5vw;
     color: white;
+    padding-bottom: 10px;
   }
   .subsubtitle-black{
     font-family: 'Fira Sans', sans-serif;
     font-size: 2vw;
     color: black;
+    padding-bottom: 10px;
+
   }
   .progress-title{
     font-size: 15px;
@@ -301,6 +304,9 @@ footer{
     padding-left: 2px;
     font-size: 1.5vw;
 
+  }
+  .white{
+      color: white;
   }
 .itemHover:hover{
       border-color: rgb(68, 42, 13);
@@ -364,7 +370,13 @@ footer{
 .chelseaModal{
     text-align: center;
 }
-
+.listeningLink{
+    color: black;
+    text-decoration: none !important;
+}
+.listeningLink:hover{
+    color: grey;
+}
 
 
   /* floating  reference : https://codepen.io/whusterj/pres/bdYKop*/
