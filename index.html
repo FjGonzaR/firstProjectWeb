@@ -718,7 +718,7 @@
             var info = {
                 datasets: [{
                     data: [25, 40, 15],
-                    backgroundColor: ["#C0751F", "#DB9A0E", "#CF4A0C"]
+                    backgroundColor: ["#C0751F", "#DB9A0E", "#CF4A0C"],
                 }],
                 labels: [
                     'Python',
@@ -771,11 +771,19 @@
                     legend: {
                         position: 'bottom',
                         fontFamily: 'Fira Sans',
+                        labels : {
+                            fontColor : "white"
+                        }
 
                     },
                     animation: {
                         animateScale: true,
                         duration: 2500
+                    },
+                    scale : {
+                        gridLines : {
+                            color : 'white'
+                        }
                     }
                 }
             });
@@ -798,12 +806,20 @@
                     },
                     legend: {
                         position: 'bottom',
-                        fontFamily: 'Fira Sans'
+                        fontFamily: 'Fira Sans',
+                        labels : {
+                            fontColor : "white"
+                        }
 
                     },
                     animation: {
                         animateScale: true,
                         duration: 2500
+                    },
+                    scale : {
+                        gridLines : {
+                            color : 'white'
+                        }
                     }
                 }
             });
@@ -825,7 +841,10 @@
                     },
                     legend: {
                         position: 'bottom',
-                        fontFamily: 'Fira Sans'
+                        fontFamily: 'Fira Sans',
+                        labels : {
+                            fontColor : "white"
+                        }
 
                     },
                     animation: {
