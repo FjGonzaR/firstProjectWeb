@@ -52,7 +52,7 @@ body{
 
 }
 .imgMedian{
-    width : 35px; 
+    width : 50px; 
 }
 .imgBitLittle{
     width : 35px; 
@@ -90,11 +90,20 @@ body{
     font-family: 'Fira Sans', sans-serif;
 }
 footer{
-    background-color: rgb(255, 255, 255);;
     width: 100%;
     height: auto;
     position: relative;
     bottom: 0;
+    padding-top: 20px;
+    background-color: rgb(226, 219, 162);
+
+}
+.footer-copyright{
+    background-color: rgb(255, 252, 230);
+
+}
+.footerContainer{
+    padding-bottom: 10px;
 }
 .custom-navbar{
     padding: 7px 7px;
@@ -104,7 +113,6 @@ footer{
     padding:0 0 0 10px;
 }
 .centered2{
-    display: flex;
     text-align: center
 }
 .meInformation{
