@@ -25,7 +25,7 @@
         font-size: 10px !important;
     }
     .subsubtitle{
-        font-size: 4vw !important; 
+        font-size: 5vw !important; 
 
     }
     .ghost , .spaced, #c{
@@ -256,13 +256,13 @@ footer{
   .subtitle-style-font{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
-    font-size: 5vw;
+    font-size: 5.7vw;
     color: white;
     padding-bottom: 1px;
   }
   .subsubtitle{
     font-family: 'Fira Sans', sans-serif;
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: white;
     padding-bottom: 10px;
   }
