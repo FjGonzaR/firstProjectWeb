@@ -139,7 +139,7 @@ footer{
 }
 .banner{
     text-align: center;
-   /* background-color: rgb(231, 221, 176); */
+    background-color: rgb(231, 221, 176); 
    background-color: #BEBBB8;
     min-height: 100vh;
     display: flex;
